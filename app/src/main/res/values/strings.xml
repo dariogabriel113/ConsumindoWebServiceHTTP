@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Consumindo Web Service HTTP</string>
+    <string name="cep">CEP</string>
+</resources>
