@@ -35,7 +35,7 @@ public class HTTPService extends AsyncTask<Void, Void, CEP> {
                 connection.connect();
 
                 Scanner scanner = new Scanner(url.openStream());
-                while(scanner.hasNext()) {
+                while (scanner.hasNext()) {
                     resposta.append(scanner.next());
                 }
 
