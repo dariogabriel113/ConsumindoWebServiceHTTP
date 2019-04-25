@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Consumindo Web Service HTTP</string>
     <string name="cep">CEP</string>
+    <string name="busca_cep">Busca Cep</string>
 </resources>

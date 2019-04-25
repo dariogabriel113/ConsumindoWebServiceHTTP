@@ -13,9 +13,11 @@
         android:layout_height="wrap_content"
         android:digits="0123456789"
         android:hint="@string/cep"
+        android:importantForAutofill="no"
         android:inputType="number"
         android:textColor="#595959"
-        android:textSize="25sp" />
+        android:textSize="25sp"
+        tools:targetApi="o" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -30,7 +32,7 @@
             android:layout_marginBottom="10dp"
             android:background="@color/colorPrimary"
             android:padding="10dp"
-            android:text="Busca Cep"
+            android:text="@string/busca_cep"
             android:textColor="#FDFDFD"
             android:textSize="22sp" />
     </LinearLayout>
@@ -41,5 +43,4 @@
         android:layout_height="match_parent"
         android:textColor="#595959"
         android:textSize="20sp" />
-
 </LinearLayout>

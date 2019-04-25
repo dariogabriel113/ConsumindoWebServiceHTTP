@@ -30,9 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 try {
                     CEP retorno = new HTTPService(cep.getText().toString()).execute().get();
                     reposta.setText(retorno.toString());
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                } catch (ExecutionException e) {
+                } catch (InterruptedException | ExecutionException e) {
                     e.printStackTrace();
                 }
             }
